@@ -1,4 +1,4 @@
-package org.oops;
+package com.oopconcepts;
 
 public class AbstractionDemo {
 
@@ -9,11 +9,11 @@ public class AbstractionDemo {
 
 }
 
-abstract class Animal {
+abstract class AnimalTest {
 	abstract void eat();
 }
 
-class Cat extends Animal {
+class Cat extends AnimalTest {
 
 	@Override
 	void eat() {
