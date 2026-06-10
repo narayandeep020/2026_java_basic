@@ -8,6 +8,7 @@ public class Slf4jLoggingDemo {
     private static final Logger logger = LoggerFactory.getLogger(Slf4jLoggingDemo.class);
 
     public static void main(String[] args) {
+
         logger.trace("This is a TRACE message");
         logger.debug("This is a DEBUG message");
         logger.info("This is an INFO message");
